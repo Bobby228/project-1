@@ -133,6 +133,7 @@ main {
   background-color: #fff;
   height: auto;
   padding: 24px 24px 32px 24px;
+  box-shadow: 16px 0 52px 0 rgba(14, 24, 80, 0.2);
 }
 
 .menu__item {
@@ -186,7 +187,7 @@ main {
   text-decoration: none;
   font-weight: 500;
   color: #1b1c21;
-  text-shadow: 0 4px 3px rgba(0, 0, 0, 0.25);
+
   transition: all 0.5s ease;
 }
 
@@ -205,7 +206,6 @@ main {
   top: -5px;
   left: -28px;
   opacity: 0;
-  box-shadow: 0 4px 4px 0 #808080;
   transition: opacity 0.5s ease;
 }
 
@@ -224,7 +224,6 @@ main {
   text-align: center;
   vertical-align: middle;
   line-height: 50px;
-  box-shadow: 0 4px 4px 0 #808080;
 }
 
 .menu__email {
@@ -233,7 +232,6 @@ main {
   color: #1b1c21;
   font-weight: 500;
   text-decoration: none;
-  text-shadow: 0 4px 3px rgba(0, 0, 0, 0.25);
   margin-bottom: 12px;
 }
 
@@ -241,7 +239,6 @@ main {
   display: block;
   font-size: 24px;
   font-weight: bold;
-  text-shadow: 0 4px 4px #808080;
   color: #1b1c21;
   text-decoration: none;
   margin-bottom: 40px;
@@ -253,7 +250,6 @@ main {
   color: #1b1c21;
   font-weight: 500;
   text-decoration: none;
-  text-shadow: 0 4px 4px #808080;
 }
 
 .menu__lang-active {
